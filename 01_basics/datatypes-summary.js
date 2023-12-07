@@ -22,3 +22,7 @@ let myObj = {
     name:"Kshitij",
     age:20,
 }
+
+// Stack Memory -> used in Primitive 
+
+// Heap Memory -> used in refrence 
