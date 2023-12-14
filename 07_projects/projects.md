@@ -6,7 +6,7 @@
 
 ## Project 1
 
-''' javascript 
+``` javascript 
 console.log("hitesh")
 const buttons = document.querySelectorAll('.button');
 const body = document.querySelector('body');
@@ -31,13 +31,11 @@ buttons.forEach(function (button) {
     
   });
 });
-
-
-'''
+```
 
 ## Project 2
 
-''' javascript 
+```javascript 
 const form = document.querySelector('form');
 // this usecase will give you empty
 // const height = parseInt(document.querySelector('#height').value)
@@ -59,13 +57,11 @@ form.addEventListener('submit', function (e) {
     results.innerHTML = `<span>${bmi}</span>`;
   }
 });
-
-
-'''
+```
 
 ## Project 3
 
-''' javascript 
+```javascript 
 const clock = document.getElementById('clock');
 // const clock = document.querySelector('#clock')
 
@@ -74,12 +70,11 @@ setInterval(function () {
   // console.log(date.toLocaleTimeString());
   clock.innerHTML = date.toLocaleTimeString();
 }, 1000);
-
-'''
+```
 
 ## Project 4 
 
-''' javascript 
+```javascript 
 
 let randomNumber = parseInt(Math.random() * 100 + 1);
 
@@ -172,5 +167,4 @@ function newGame() {
     playGame = true;
   });
 }
-
-'''
+```
